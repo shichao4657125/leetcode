@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/leetcode/Solution383.cpp
+Solution383.h
+C:/leetcode/Solution383.h
+
+C:/leetcode/Solution383.h
+iostream
+-
+unordered_map
+-
+string
+-
+
+C:/leetcode/main.cpp
+string
+-
+Solution383.h
+C:/leetcode/Solution383.h
+
