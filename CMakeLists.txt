@@ -3,4 +3,4 @@ project(leetcodeShi)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(leetcodeShi main.cpp Solution383.cpp Solution383.h)
+add_executable(leetcodeShi main.cpp Solution383.cpp Solution383.h Solution136.cpp Solution136.h)

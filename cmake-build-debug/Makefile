@@ -122,6 +122,33 @@ leetcodeShi/fast:
 	$(MAKE) -f CMakeFiles\leetcodeShi.dir\build.make CMakeFiles/leetcodeShi.dir/build
 .PHONY : leetcodeShi/fast
 
+Solution136.obj: Solution136.cpp.obj
+
+.PHONY : Solution136.obj
+
+# target to build an object file
+Solution136.cpp.obj:
+	$(MAKE) -f CMakeFiles\leetcodeShi.dir\build.make CMakeFiles/leetcodeShi.dir/Solution136.cpp.obj
+.PHONY : Solution136.cpp.obj
+
+Solution136.i: Solution136.cpp.i
+
+.PHONY : Solution136.i
+
+# target to preprocess a source file
+Solution136.cpp.i:
+	$(MAKE) -f CMakeFiles\leetcodeShi.dir\build.make CMakeFiles/leetcodeShi.dir/Solution136.cpp.i
+.PHONY : Solution136.cpp.i
+
+Solution136.s: Solution136.cpp.s
+
+.PHONY : Solution136.s
+
+# target to generate assembly for a file
+Solution136.cpp.s:
+	$(MAKE) -f CMakeFiles\leetcodeShi.dir\build.make CMakeFiles/leetcodeShi.dir/Solution136.cpp.s
+.PHONY : Solution136.cpp.s
+
 Solution383.obj: Solution383.cpp.obj
 
 .PHONY : Solution383.obj
@@ -185,6 +212,9 @@ help:
 	@echo ... edit_cache
 	@echo ... leetcodeShi
 	@echo ... rebuild_cache
+	@echo ... Solution136.obj
+	@echo ... Solution136.i
+	@echo ... Solution136.s
 	@echo ... Solution383.obj
 	@echo ... Solution383.i
 	@echo ... Solution383.s

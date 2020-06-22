@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/leetcode/Solution136.cpp">
+			<Option target="leetcodeShi"/>
+		</Unit>
+		<Unit filename="C:/leetcode/Solution136.h">
+			<Option target="leetcodeShi"/>
+		</Unit>
 		<Unit filename="C:/leetcode/Solution383.cpp">
 			<Option target="leetcodeShi"/>
 		</Unit>

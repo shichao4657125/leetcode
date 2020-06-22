@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/leetcode/Solution136.cpp" "C:/leetcode/cmake-build-debug/CMakeFiles/leetcodeShi.dir/Solution136.cpp.obj"
   "C:/leetcode/Solution383.cpp" "C:/leetcode/cmake-build-debug/CMakeFiles/leetcodeShi.dir/Solution383.cpp.obj"
   "C:/leetcode/main.cpp" "C:/leetcode/cmake-build-debug/CMakeFiles/leetcodeShi.dir/main.cpp.obj"
   )
