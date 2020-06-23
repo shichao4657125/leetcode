@@ -4,9 +4,12 @@
 CMakeFiles/leetcodeShi.dir/Solution136.cpp.obj: ../Solution136.cpp
 CMakeFiles/leetcodeShi.dir/Solution136.cpp.obj: ../Solution136.h
 
+CMakeFiles/leetcodeShi.dir/Solution290.cpp.obj: ../Solution290.cpp
+CMakeFiles/leetcodeShi.dir/Solution290.cpp.obj: ../Solution290.h
+
 CMakeFiles/leetcodeShi.dir/Solution383.cpp.obj: ../Solution383.cpp
 CMakeFiles/leetcodeShi.dir/Solution383.cpp.obj: ../Solution383.h
 
-CMakeFiles/leetcodeShi.dir/main.cpp.obj: ../Solution136.h
+CMakeFiles/leetcodeShi.dir/main.cpp.obj: ../Solution290.h
 CMakeFiles/leetcodeShi.dir/main.cpp.obj: ../main.cpp
 

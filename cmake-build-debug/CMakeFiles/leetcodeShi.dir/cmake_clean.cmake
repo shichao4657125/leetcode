@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/leetcodeShi.dir/Solution136.cpp.obj"
+  "CMakeFiles/leetcodeShi.dir/Solution290.cpp.obj"
   "CMakeFiles/leetcodeShi.dir/Solution383.cpp.obj"
   "CMakeFiles/leetcodeShi.dir/main.cpp.obj"
   "leetcodeShi.exe"

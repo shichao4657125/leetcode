@@ -1,10 +1,11 @@
-#include "Solution136.h"
-#include <vector>
+#include "Solution290.h"
+#include <string>
 
 using namespace std;
 
 int main() {
-    Solution136 solution;
-    vector<int> nums={2,2,1};
-    solution.singleNumber(nums);
+    Solution290 solution;
+    string pattern = "abba";
+    string str = "dog cat cat cow";
+    solution.wordPattern(pattern,str);
 }
