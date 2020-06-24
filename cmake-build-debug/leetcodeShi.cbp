@@ -86,6 +86,12 @@
 		<Unit filename="C:/leetcode/Solution136.h">
 			<Option target="leetcodeShi"/>
 		</Unit>
+		<Unit filename="C:/leetcode/Solution202.cpp">
+			<Option target="leetcodeShi"/>
+		</Unit>
+		<Unit filename="C:/leetcode/Solution202.h">
+			<Option target="leetcodeShi"/>
+		</Unit>
 		<Unit filename="C:/leetcode/Solution290.cpp">
 			<Option target="leetcodeShi"/>
 		</Unit>

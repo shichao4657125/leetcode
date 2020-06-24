@@ -6,19 +6,17 @@
 
 #IncludeRegexTransform: 
 
-C:/leetcode/Solution290.cpp
-Solution290.h
-C:/leetcode/Solution290.h
+C:/leetcode/Solution202.cpp
+Solution202.h
+C:/leetcode/Solution202.h
 
-C:/leetcode/Solution290.h
+C:/leetcode/Solution202.h
 iostream
 -
-unordered_map
+unordered_set
+-
+algorithm
 -
 string
--
-sstream
--
-vector
 -
 

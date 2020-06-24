@@ -1,11 +1,19 @@
-#include "Solution290.h"
-#include <string>
+#include "Solution202.h"
+#include <chrono>
+#include <unistd.h>
 
 using namespace std;
 
+
 int main() {
-    Solution290 solution;
-    string pattern = "abba";
-    string str = "dog cat cat cow";
-    solution.wordPattern(pattern,str);
+    Solution202 solution;
+    int n =14567;
+
+    auto start = chrono::steady_clock::now();
+
+    solution.isHappy(n);
+
+    auto end = chrono::steady_clock::now();
+
+    cout<<chrono::duration_cast<chrono::microseconds>(end-start).count()<<endl;
 }

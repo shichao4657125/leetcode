@@ -149,6 +149,33 @@ Solution136.cpp.s:
 	$(MAKE) -f CMakeFiles\leetcodeShi.dir\build.make CMakeFiles/leetcodeShi.dir/Solution136.cpp.s
 .PHONY : Solution136.cpp.s
 
+Solution202.obj: Solution202.cpp.obj
+
+.PHONY : Solution202.obj
+
+# target to build an object file
+Solution202.cpp.obj:
+	$(MAKE) -f CMakeFiles\leetcodeShi.dir\build.make CMakeFiles/leetcodeShi.dir/Solution202.cpp.obj
+.PHONY : Solution202.cpp.obj
+
+Solution202.i: Solution202.cpp.i
+
+.PHONY : Solution202.i
+
+# target to preprocess a source file
+Solution202.cpp.i:
+	$(MAKE) -f CMakeFiles\leetcodeShi.dir\build.make CMakeFiles/leetcodeShi.dir/Solution202.cpp.i
+.PHONY : Solution202.cpp.i
+
+Solution202.s: Solution202.cpp.s
+
+.PHONY : Solution202.s
+
+# target to generate assembly for a file
+Solution202.cpp.s:
+	$(MAKE) -f CMakeFiles\leetcodeShi.dir\build.make CMakeFiles/leetcodeShi.dir/Solution202.cpp.s
+.PHONY : Solution202.cpp.s
+
 Solution290.obj: Solution290.cpp.obj
 
 .PHONY : Solution290.obj
@@ -242,6 +269,9 @@ help:
 	@echo ... Solution136.obj
 	@echo ... Solution136.i
 	@echo ... Solution136.s
+	@echo ... Solution202.obj
+	@echo ... Solution202.i
+	@echo ... Solution202.s
 	@echo ... Solution290.obj
 	@echo ... Solution290.i
 	@echo ... Solution290.s
