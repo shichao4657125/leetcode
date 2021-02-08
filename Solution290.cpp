@@ -31,7 +31,7 @@ bool Solution290::wordPattern(string pattern, string str) {
 
         }
     }
-    cout<<"true"<<endl;
+    cout<<"true"<<endl; 
     return true;
 
 
