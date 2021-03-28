@@ -8,106 +8,126 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/leetcode/cmake-build-debug"/>
+				<Option working_dir="I:/leetcode/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="G:/msys/mingw64/bin/mingw32-make.exe -f &quot;I:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="G:/msys/mingw64/bin/mingw32-make.exe -f &quot;I:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/msys/mingw64/bin/mingw32-make.exe -f &quot;I:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/msys/mingw64/bin/mingw32-make.exe -f &quot;I:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/leetcode/cmake-build-debug"/>
+				<Option working_dir="I:/leetcode/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="G:/msys/mingw64/bin/mingw32-make.exe -f &quot;I:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="G:/msys/mingw64/bin/mingw32-make.exe -f &quot;I:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/msys/mingw64/bin/mingw32-make.exe -f &quot;I:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/msys/mingw64/bin/mingw32-make.exe -f &quot;I:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="leetcodeShi">
-				<Option output="C:/leetcode/cmake-build-debug/leetcodeShi.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/leetcode/cmake-build-debug"/>
+				<Option output="I:/leetcode/cmake-build-debug/leetcodeShi.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="I:/leetcode/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+					<Add directory="G:/msys/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/../../../../include/c++/8.3.0"/>
+					<Add directory="G:/msys/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/../../../../include/c++/8.3.0/x86_64-w64-mingw32"/>
+					<Add directory="G:/msys/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/../../../../include/c++/8.3.0/backward"/>
+					<Add directory="G:/msys/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/include"/>
+					<Add directory="G:/msys/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/../../../../include"/>
+					<Add directory="G:/msys/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/include-fixed"/>
+					<Add directory="G:/msys/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 leetcodeShi"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="G:/msys/mingw64/bin/mingw32-make.exe -f &quot;I:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 leetcodeShi"/>
+					<CompileFile command="G:/msys/mingw64/bin/mingw32-make.exe -f &quot;I:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/msys/mingw64/bin/mingw32-make.exe -f &quot;I:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/msys/mingw64/bin/mingw32-make.exe -f &quot;I:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="leetcodeShi/fast">
-				<Option output="C:/leetcode/cmake-build-debug/leetcodeShi.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/leetcode/cmake-build-debug"/>
+				<Option output="I:/leetcode/cmake-build-debug/leetcodeShi.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="I:/leetcode/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+					<Add directory="G:/msys/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/../../../../include/c++/8.3.0"/>
+					<Add directory="G:/msys/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/../../../../include/c++/8.3.0/x86_64-w64-mingw32"/>
+					<Add directory="G:/msys/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/../../../../include/c++/8.3.0/backward"/>
+					<Add directory="G:/msys/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/include"/>
+					<Add directory="G:/msys/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/../../../../include"/>
+					<Add directory="G:/msys/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/include-fixed"/>
+					<Add directory="G:/msys/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 leetcodeShi/fast"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="G:/msys/mingw64/bin/mingw32-make.exe -f &quot;I:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 leetcodeShi/fast"/>
+					<CompileFile command="G:/msys/mingw64/bin/mingw32-make.exe -f &quot;I:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/msys/mingw64/bin/mingw32-make.exe -f &quot;I:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/msys/mingw64/bin/mingw32-make.exe -f &quot;I:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/leetcode/cmake-build-debug"/>
+				<Option working_dir="I:/leetcode/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="G:/msys/mingw64/bin/mingw32-make.exe -f &quot;I:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="G:/msys/mingw64/bin/mingw32-make.exe -f &quot;I:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/msys/mingw64/bin/mingw32-make.exe -f &quot;I:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/msys/mingw64/bin/mingw32-make.exe -f &quot;I:/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/leetcode/Solution136.cpp">
+		<Unit filename="I:/leetcode/Solution136.cpp">
 			<Option target="leetcodeShi"/>
 		</Unit>
-		<Unit filename="C:/leetcode/Solution136.h">
+		<Unit filename="I:/leetcode/Solution136.h">
 			<Option target="leetcodeShi"/>
 		</Unit>
-		<Unit filename="C:/leetcode/Solution202.cpp">
+		<Unit filename="I:/leetcode/Solution202.cpp">
 			<Option target="leetcodeShi"/>
 		</Unit>
-		<Unit filename="C:/leetcode/Solution202.h">
+		<Unit filename="I:/leetcode/Solution202.h">
 			<Option target="leetcodeShi"/>
 		</Unit>
-		<Unit filename="C:/leetcode/Solution290.cpp">
+		<Unit filename="I:/leetcode/Solution242.cpp">
 			<Option target="leetcodeShi"/>
 		</Unit>
-		<Unit filename="C:/leetcode/Solution290.h">
+		<Unit filename="I:/leetcode/Solution242.h">
 			<Option target="leetcodeShi"/>
 		</Unit>
-		<Unit filename="C:/leetcode/Solution383.cpp">
+		<Unit filename="I:/leetcode/Solution290.cpp">
 			<Option target="leetcodeShi"/>
 		</Unit>
-		<Unit filename="C:/leetcode/Solution383.h">
+		<Unit filename="I:/leetcode/Solution290.h">
 			<Option target="leetcodeShi"/>
 		</Unit>
-		<Unit filename="C:/leetcode/main.cpp">
+		<Unit filename="I:/leetcode/Solution383.cpp">
 			<Option target="leetcodeShi"/>
 		</Unit>
-		<Unit filename="C:/leetcode/CMakeLists.txt">
+		<Unit filename="I:/leetcode/Solution383.h">
+			<Option target="leetcodeShi"/>
+		</Unit>
+		<Unit filename="I:/leetcode/Solution387.cpp">
+			<Option target="leetcodeShi"/>
+		</Unit>
+		<Unit filename="I:/leetcode/Solution387.h">
+			<Option target="leetcodeShi"/>
+		</Unit>
+		<Unit filename="I:/leetcode/Solution953.cpp">
+			<Option target="leetcodeShi"/>
+		</Unit>
+		<Unit filename="I:/leetcode/Solution953.h">
+			<Option target="leetcodeShi"/>
+		</Unit>
+		<Unit filename="I:/leetcode/main.cpp">
+			<Option target="leetcodeShi"/>
+		</Unit>
+		<Unit filename="I:/leetcode/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

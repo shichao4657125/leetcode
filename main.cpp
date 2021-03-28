@@ -1,19 +1,18 @@
-#include "Solution202.h"
-#include <chrono>
-#include <unistd.h>
+#include "Solution953.h"
 
 using namespace std;
 
 
 int main() {
-    Solution202 solution;
-    int n =14567;
+    Solution953 solution;
+    vector<string> words ;
+    words.push_back("aa");
+    words.push_back("a");
 
-    auto start = chrono::steady_clock::now();
 
-    solution.isHappy(n);
+    string order = "abqwertyuioplkjhgfdszxcvnm";
+    solution.isAlienSorted(words,order);
 
-    auto end = chrono::steady_clock::now();
-
-    cout<<chrono::duration_cast<chrono::microseconds>(end-start).count()<<endl;
 }
+
+
